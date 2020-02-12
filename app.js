@@ -95,7 +95,7 @@ res.render("template",{
 
 
 
-app.listen(3000, function(){
-	console.log(3000);
+app.listen(8080, function(){
+	console.log(8080);
 
 });
