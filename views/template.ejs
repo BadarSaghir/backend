@@ -1,0 +1,18 @@
+
+
+
+<%- include("header") -%>
+<section id="content">
+    <h1 class="title">
+        <%=title%>
+       <div class="hidden"> <%=value%> </div>
+    </h1>
+    <div class="detail">
+        <%  if(value==0){ %>
+        <%- include(title)-%>
+        <%} else {%>
+        <%=detail%>
+        <%}%>
+    </div>
+</section>
+<%-include("footer")-%>

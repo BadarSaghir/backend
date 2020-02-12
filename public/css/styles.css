@@ -1,0 +1,63 @@
+#main,html{
+	background-color: #230a59;
+	margin: 0;
+
+}
+
+
+#nav nav,#nav a{
+	background-color: #230A59;
+	color: azure;
+	font-size: 1.2rem;
+	font-weight: bolder;
+
+}
+#nav{
+	padding: 0% 15%;
+}
+
+#content{
+	background-color: azure;
+	color: #230A59;
+	margin: 0;
+	text-align: justify;
+	padding: 7% 15%;
+}
+
+#nav .programo{
+	font-size: 1.7rem;
+}
+.title{
+	font-size: 1.7rem;
+	font-weight: bold;
+}
+
+#footer{
+ background-color: #233459;
+ color: white;
+ padding: 7% 15%;
+}
+
+.hidden{
+	display: none;
+}
+
+label.col-form-label {
+    display: block;
+    font-weight: bolder;
+    border-radius: 1%;
+}
+
+label.area {
+    box-sizing: 4rem;
+}
+textarea  input[type="text"] {
+    height:15rem;
+    width: 100%;
+}
+
+.mybox{
+width: 800px;
+
+overflow: scroll;
+}
