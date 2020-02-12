@@ -1,6 +1,7 @@
 //jshint esversion:6
 
-
+const server_port =process.env.OPENSHIFT_NODEJS_PORT || 8080;
+const server_ip = process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
 const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
@@ -95,7 +96,7 @@ res.render("template",{
 
 
 
-app.listen(8080, function(){
+app.listen(server_port || 8080,server_ip, function(){
 	console.log(8080);
 
 });
